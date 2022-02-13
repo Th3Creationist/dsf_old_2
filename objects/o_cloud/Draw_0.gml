@@ -1,0 +1,1 @@
+draw_sprite_ext(s_cloud_plat, 0, x, finaly, draw_x, draw_y, 0, c_white, 1);

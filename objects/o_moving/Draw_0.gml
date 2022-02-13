@@ -1,0 +1,1 @@
+draw_sprite_ext(s_semisolid, 0, x, y, w, h, 0, c_white, 1);
