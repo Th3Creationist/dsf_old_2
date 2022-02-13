@@ -1,4 +1,4 @@
-image_blend = c_black
+
 
 #region X Movement Vars
 xspeed = 0;

@@ -92,10 +92,21 @@ if (place_meeting(x, y, o_camadd)) {
 	
 	//Crouch
 	if (onGround and down) {
-		sprite_index = 1;
+		image_index = 1;
+		draw_xscale = lerp(draw_xscale, 1.5, 0.1);
+		draw_yscale = lerp(draw_yscale, 0.15, 0.1);
 	} else {
-		sprite_index = 0;
+		//Return from Crouch
+		
+		if (image_index = 1) {
+				if !place_meeting(x, y-(sprite_height/2), o_solid) {
+					image_index = 0;
+					reset_speed = 3;
+
+				};
+		};
 	};
+
 	
 	//Wall Jump / Player is on a wall
 	if (on_wall != 0) {
