@@ -87,7 +87,7 @@ if (place_meeting(x, y, o_camadd)) {
 		draw_xscale = lerp(draw_xscale, 0.5, 0.1);
 		max_fall = 8
 	} else {
-		max_fall = 5
+		max_fall = 5;
 	};
 	
 	//Crouch
@@ -103,7 +103,7 @@ if (place_meeting(x, y, o_camadd)) {
 					image_index = 0;
 					reset_speed = 3;
 
-				};
+			};
 		};
 	};
 

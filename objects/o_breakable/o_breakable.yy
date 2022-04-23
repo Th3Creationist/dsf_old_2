@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "target_grapple",
-    "path": "sprites/target_grapple/target_grapple.yy",
+    "name": "s_breakable",
+    "path": "sprites/s_breakable/s_breakable.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "o_solid",
+    "path": "objects/o_solid/o_solid.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,7 +25,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +33,7 @@
     "path": "folders/Objects/Solids.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_target",
+  "name": "o_breakable",
   "tags": [],
   "resourceType": "GMObject",
 }

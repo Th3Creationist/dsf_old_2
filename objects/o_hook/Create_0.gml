@@ -1,5 +1,6 @@
 grapple_x = 0;
 grapple_y = 0;
+status_of_hook = 1;
 
 var _list = ds_list_create();
 collision_circle_list(o_marcel.x+o_marcel.xbonus, o_marcel.y+o_marcel.ybonus, 200, o_rope, false, false, _list, true);

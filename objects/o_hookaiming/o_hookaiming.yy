@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "target_grapple",
-    "path": "sprites/target_grapple/target_grapple.yy",
+    "name": "s_hookaim",
+    "path": "sprites/s_hookaim/s_hookaim.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Solids",
-    "path": "folders/Objects/Solids.yy",
+    "name": "Playable",
+    "path": "folders/Objects/Playable.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_target",
+  "name": "o_hookaiming",
   "tags": [],
   "resourceType": "GMObject",
 }

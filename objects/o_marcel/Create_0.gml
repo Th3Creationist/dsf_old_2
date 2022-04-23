@@ -1,4 +1,4 @@
-
+ 
 
 #region X Movement Vars
 xspeed = 0;
@@ -60,6 +60,7 @@ y_scale = image_yscale;
 image_dir = 1;
 mask = mask_index;
 onGround_prev = 0;
+
 alarm[3] = 2;
 #endregion
 globalvar status_of_hook;

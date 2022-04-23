@@ -1,11 +1,14 @@
 {
   "spriteId": {
-    "name": "playericon",
-    "path": "sprites/playericon/playericon.yy",
+    "name": "s_marcel_idle",
+    "path": "sprites/s_marcel_idle/s_marcel_idle.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "playericon",
+    "path": "sprites/playericon/playericon.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
